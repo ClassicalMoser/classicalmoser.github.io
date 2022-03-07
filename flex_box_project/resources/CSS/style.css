@@ -39,17 +39,22 @@ header {
 header ul {
     display: flex;
     flex-wrap: wrap;
+    justify-items: end;
+    align-items: end;
+    text-align: right;
 }
 
 header ul li {
     display: inline-flex;
     padding: 10px;
+    text-align: right;
 }
 
 a {
     font-size: 18px;
     color: seashell;
     opacity: 0.9;
+    text-align: right;
 }
 
 main{
@@ -64,7 +69,7 @@ main{
     height: 700px;
     justify-content: space-around;
     background-image: url(../Images/img-mission-background.webp);
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     margin-bottom: 40px;
 
@@ -163,10 +168,16 @@ footer h2, h5 {
     header ul{
         flex-direction: column;
         align-items: end;
+        justify-items: end;
         text-align: right;
     }
 
     header ul li {
+        text-align: right;
+        
+    }
+
+    header ul li a {
         text-align: right;
     }
 
