@@ -98,9 +98,11 @@ main{
     padding: 10px;
 }
 
+
 .tea-type {
     display: inline-flex;
     max-width: 300px;
+    height: auto;
     margin: 10px;
     flex: 0 1 300px;
     flex-direction: column;
@@ -189,7 +191,8 @@ footer h2, h5 {
     }
    
     header ul li a {
-       font-size: 14px
+       font-size: 14px;
+       text-align: Right;
    }
 
    main {
