@@ -102,7 +102,6 @@ main{
 .tea-type {
     display: inline-flex;
     max-width: 300px;
-    height: auto;
     margin: 10px;
     flex: 0 1 300px;
     flex-direction: column;
@@ -110,8 +109,7 @@ main{
 }
 
 .tea-type img{
-    height: auto;
-    width: auto;
+    object-fit: contain;
 }
 
 #locations {
