@@ -109,12 +109,8 @@ main{
 }
 
 .tea-type img{
-<<<<<<< HEAD
-    object-fit: cover;
     max-width: 300px;
-=======
     object-fit: contain;
->>>>>>> 536906f8968409c43bd0b126bf1d7a5373e546d8
 }
 
 #locations {
