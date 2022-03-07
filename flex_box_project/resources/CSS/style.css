@@ -109,6 +109,11 @@ main{
     justify-content: center;
 }
 
+.tea-type img{
+    height: auto;
+    width: auto;
+}
+
 #locations {
     width: 100%;
     display: flex;
