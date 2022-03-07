@@ -152,12 +152,12 @@ footer h2, h5 {
         top: 142px;
         padding: 0;
         margin: 0;
-
     }
 
     header ul{
         flex-direction: column;
         align-items: end;
+        text-align: right;
     }
 
     header ul li {
@@ -166,7 +166,6 @@ footer h2, h5 {
 
     #mission {
         width: 100%;
-
     }
 
     #locations {
