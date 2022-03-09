@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Raleway","Helvetica",sans-serif;
+}
+
+h1 {
+    font-family: "Cinzel",serif;
+}
