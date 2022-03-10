@@ -4,8 +4,8 @@
     text-align: center;
     color: black;
     text-decoration: none;
+    font-weight: normal;
     box-sizing: border-box;
-    overflow: hidden;
     font-family: "Raleway","Helvetica",sans-serif;
     max-width: 100%;
 }
