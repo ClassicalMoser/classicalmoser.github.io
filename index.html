@@ -13,23 +13,63 @@
 <body>
     <header>
         <h1>Josiah Moser</h1>
-        <h4>Web Developer</h3>
+        <h4>Web Developer</h4>
+        <nav>
+            <h5><a href = "#projects">PROJECTS</a></h5>
+            <h5><a href = "#about">ABOUT</a></h5>
+            <h5><a href = "#contact">CONTACT</a></h5>
+        </nav>
     </header>
     <main>
-        <h2>Project List</h2>
-        <h3><a href = "flex_box_project/index.html">Flexbox Project</a></h3>
-        <div class = "project-box">
-            <a href = "flex_box_project/index.html"><img class = "desktop" src="resources/Tea_Cozy_Desktop_Teas.png" alt="Tea Cozy Website (Desktop)"></a>
-            <a href = "flex_box_project/index.html"><img class = "mobile" src="resources/Tea_Cozy_Mobile_Teas.png" alt="Tea Cozy Website (mobile)"></a>
+        <div id = "projects">
+            <h2>projects</h2>
+            <div class = "project-box">
+                <a href = "flex_box_project/index.html">
+                <h3>Flexbox Project</a></h3>
+                <div class = "image-box">
+                    <a href = "flex_box_project/index.html"><img class = "desktop" src="resources/Tea_Cozy_Desktop_Teas.png" alt="Tea Cozy Website (Desktop)"></a>
+                    <a href = "flex_box_project/index.html"><img class = "mobile" src="resources/Tea_Cozy_Mobile_Teas.png" alt="Tea Cozy Website (mobile)"></a>
+                </div>
+                </a>
+            </div>
+            <div class = "project-box">
+                <h3><a href = "StoryGenerator/index.html">Story Generator</a></h3>
+                <div class = "image-box">
+                    <a href = "StoryGenerator/index.html"><img class = "desktop" src="resources/Story_Generator_Desktop.png" alt="Story Generator Website (Desktop)"></a>
+                    <a href = "StoryGenerator/index.html"><img class = "mobile" src="resources/Story_Generator_Mobile.png" alt="Story Generator Website (mobile)"></a>
+                </div>
+            </div>
         </div>
-        <h3><a href = "StoryGenerator/index.html">Story Generator</a></h3>
-        <div class = "project-box">
-            <a href = "StoryGenerator/index.html"><img class = "desktop" src="resources/Story_Generator_Desktop.png" alt="Story Generator Website (Desktop)"></a>
-            <a href = "StoryGenerator/index.html"><img class = "mobile" src="resources/Story_Generator_Mobile.png" alt="Story Generator Website (mobile)"></a>
+        <div id = "about">
+            <h2>about</h2>
+            <div class = "about-box">
+                <div class = "about-container">
+                    <h4>what am I doing here?</h4>
+                    <p>
+                        It's funny because this isn't a long-term ambition of mine. I never considered myself a programmer, or even though myself particularly tech-savvy.
+                        <br><br>
+                        But several projects I've been working on over the years, both for work and for my hobbies, have required skills that I don't have or would benefit from having some ability to code.
+                        <br><br>
+                        I've started studying full-stack web development with CodeCademy. I'm currently about 30% of the way through the course. I'm using this site to show off the projects I've finished.
+                    </p>
+                </div>
+                <div class = "about-container">
+                    <img src = "resources/Josiah.JPG" alt = "Josiah sitting outside">
+                </div>
+            </div>
+        </div>
+        <div id = "contact">
+            <h2>contact</h2>
+            <div class = "contact-box">
+                <h3>See my repositories on Github:</h3>
+                <a href = "https://github.com/classicalmoser">github.com/classicalmoser</a>
+                <br>
+                <h3>Or send me an email at ClassicalMoser@gmail.com</h3>
+            </div>
         </div>
     </main>
     <footer>
-
+        <h5>Copyright 2022 by Josiah Moser</h5>
     </footer>
 </body>
 </html>
