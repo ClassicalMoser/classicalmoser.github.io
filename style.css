@@ -12,26 +12,32 @@
 
 h1 {
     font-family: "Cinzel",serif;
-    padding: 5px;
+    padding: 0.25rem;
     margin: 0;
     border-bottom: 1px solid black;
 }
 
 h2 {
     font-family: "Cinzel",serif;
-    padding: 5px;
+    padding: 0.25rem;
     margin: 0;
 }
 
 h4 {
     font-family: "Cinzel",serif;
-    padding: 5px;
+    padding: 0.25rem;
     margin: 0;
     color: darkred;
 }
 
-h3, h5, h6, p, li{
-    padding: 5px;
+h3 {
+    font-weight: 700;
+    padding: 0.25rem;
+    line-height: 1.5;
+}
+
+h5, h6, p, li{
+    padding: 0.25rem;
     line-height: 1.5;
 }
 
@@ -44,13 +50,9 @@ header {
     flex-direction: column;
     align-items: center;
     background-color: white;
-    padding: 15px;
+    padding: 1% 4%;
     z-index: 10;
     border-bottom: 2px solid black;
-}
-
-nav {
-    padding: 10px;
 }
 
 nav h5 {
@@ -76,7 +78,7 @@ main h2 {
 
 .project-box {
     padding: 3%;
-    background-color: lightgray;
+    background-color: #dfdfdf;
     margin: 20px auto;
     width: 100%;
     max-width: 1100px;
@@ -175,6 +177,19 @@ footer h5 {
 }
 
 @media screen and (max-width: 720px){
+    html {
+        font-size: 15px;
+    }
+
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav h5 {
+        display: block;
+    }
+    
     .image-box img {
         padding: 10px 0px;
         max-width: 100%;
@@ -187,4 +202,24 @@ footer h5 {
     main {
         padding: 10px 0;
     }
+}
+
+@media screen and (orientation: landscape) and (max-height:450px){
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav h5 {
+        display: inline;
+    }
+
+    header h1 {
+        font-size: 1.25rem;
+    }
+
+    header h4 {
+        font-size: 0.8rem;
+    }
+
 }
