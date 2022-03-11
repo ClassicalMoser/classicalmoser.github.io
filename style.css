@@ -71,18 +71,13 @@ main h2 {
 
 #projects {
     padding: 3.5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center;
+    width: 100%;
 }
 
 .project-box {
-    background-color: lightgray;
     padding: 3%;
-    margin: 20px 0;
+    background-color: lightgray;
+    margin: 20px auto;
     width: 100%;
     max-width: 1100px;
 }
@@ -104,49 +99,50 @@ main h2 {
 
 #about {
     padding: 3.5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center;
+    width: 100%;
 }
 
 .about-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    background-color: white;
-    justify-content: space-around;
-    align-content: space-around;
-    align-items: stretch;
     padding: 3%;
-    margin: 20px 0;
+    background-color: white;
+    margin: 20px auto;
     width: 100%;
     max-width: 1100px;
     overflow: hidden;
-}
-
-.about-box .about-container {
     display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-content: end;
-    flex: 1 0 250px;
-    height: 500px;
-    padding: 3%;
-    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
 }
 
-.about-container p {
+.about-box .paragraph{
+    display: flex;
+    flex: 3 0 500px;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.about-box .image {
+    display: flex;
+    flex: 1 0 250px;
+    min-height: 200px;
+    background-image: url("resources/Josiah.JPG");
+    background-size: cover;
+    background-position: right 25% center;
+}
+
+.paragraph p {
     text-align: left;
     line-height: 1.5;
 }
 
-.about-container img {
-    height: 100%;
+.image img {
     object-fit: cover;
-    align-self: right;
+    z-index: 3;
+}
+
+#contact {
+    padding: 3.5%;
+    width: 100%;
 }
 
 .contact-box {
@@ -154,19 +150,17 @@ main h2 {
     flex-direction: column;
     background-color: white;
     padding: 3%;
-    margin: 20px 0 50px;
+    margin: 20px auto 50px;
     width: 100%;
     max-width: 1100px;
 }
 
 a:hover {
     color: darkred;
-    text-decoration: underline;
 }
 
 a:active {
     color: red;
-    text-decoration: none;
 }
 
 footer {
